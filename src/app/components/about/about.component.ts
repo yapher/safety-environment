@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { InformacionService } from "../../services/informacion.service";
+import{LoadingComponent} from "../tools/loading/loading.component";
+
 
 @Component({
   selector: 'app-about',

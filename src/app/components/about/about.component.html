@@ -1,7 +1,7 @@
 
 
   <div class="ae-grid au-xs-ta-center au-mb-4 animated fadeIn">
-
+    <app-loading [esperar]="_is.cargada_sobre_nosotros"></app-loading >
     <div *ngFor="let miembro of _is.equipo"
          class="ae-grid__item item-lg-4 ae-kappa au-mb-3">
       <img [src]="miembro.url" alt="" class="au-mb-3" width="350">
